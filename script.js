@@ -345,7 +345,7 @@ eess: {
         <p>Error fetching paper: ${error.message}</p>
         <p>This might be due to network issues. Try:</p>
         <ul>
-          <li>Checking your internet connection (e.g., Live Server in VSCode)</li>
+          <li>Checking your internet connection</li>
           <li>Checking if arXiv is down</li>
         </ul>
       `;
@@ -358,4 +358,5 @@ eess: {
 
   // Initialize the category list when the page loads
   updateCategories();
+
 });
